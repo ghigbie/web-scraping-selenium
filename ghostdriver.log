@@ -1,0 +1,23 @@
+[INFO  - 2019-04-13T13:51:48.960Z] GhostDriver - Main - running on port 50273
+[INFO  - 2019-04-13T13:51:48.995Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2019-04-13T13:51:48.995Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.customHeaders:  - {}
+[INFO  - 2019-04-13T13:51:48.995Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2019-04-13T13:51:48.995Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 48b728f0-5df3-11e9-bc6f-e5a724cb78a5
+[ERROR - 2019-04-13T13:51:51.801Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.onError - msg: TypeError: undefined is not a constructor (evaluating 'n.includes("?")')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-13T13:51:51.801Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.onError - stack:
+  (anonymous function) (https://s.yimg.com/uc/finance/dd-site/js/vendor.6d4b49b6627cd2da486c.min.js:24)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-13T13:51:52.626Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.onError - msg: TypeError: undefined is not an object (evaluating 't._viewportDetector.init')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2019-04-13T13:51:52.626Z] Session [48b728f0-5df3-11e9-bc6f-e5a724cb78a5] - page.onError - stack:
+  recursiveDetectViewport (https://s.yimg.com/uc/finance/dd-site/js/vendor.6d4b49b6627cd2da486c.min.js:24)
+  (anonymous function) (https://s.yimg.com/uc/finance/dd-site/js/vendor.6d4b49b6627cd2da486c.min.js:24)
+  forEach (:0)
+  _pageInitViewportDetection (https://s.yimg.com/uc/finance/dd-site/js/vendor.6d4b49b6627cd2da486c.min.js:24)
+  (anonymous function) (https://s.yimg.com/uc/finance/dd-site/js/vendor.6d4b49b6627cd2da486c.min.js:24)
+
+  phantomjs://platform/console++.js:263 in error
